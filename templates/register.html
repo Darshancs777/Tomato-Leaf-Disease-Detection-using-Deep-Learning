@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register Form</title>
+  <link rel="stylesheet" href="../static/css/styles.css">
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <form action="/register" method="post" onsubmit="return validateForm()">
+      <h1>Register</h1>
+      <div class="input-box">
+        <input type="text" name="username" placeholder="Username" id="username" required>
+        <box-icon name='user-circle'></box-icon>
+      </div>
+      <div class="input-box">
+        <input type="email" name="email" placeholder="Email" id="email" required>
+        <box-icon type='solid' name='envelope'></box-icon>
+      </div>
+      <div class="input-box">
+        <input type="password" name="password" placeholder="Password" id="password" required>
+        <box-icon name='lock'></box-icon>
+      </div>
+      <button type="submit" class="btn">Register</button>
+      <div class="register-link">
+        <p>Already have an account? <a href="/login1">Login</a></p>
+      </div>
+    </form>
+  </div>
+  <script>
+    function validateForm() {
+      var username = document.getElementById("username").value;
+      var email = document.getElementById("email").value;
+      var password = document.getElementById("password").value;
+
+      if (username === "" || email === "" || password === "") {
+        alert("All fields are required!");
+        return false;
+      }
+
+      // Additional client-side validation can be added here
+      
+      return true; // Allow form submission
+    }
+  </script>
+</body>
+</html>

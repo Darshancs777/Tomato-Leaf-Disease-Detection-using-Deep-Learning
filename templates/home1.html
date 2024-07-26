@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tomato Leaf Disease</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <style>
+    /* Custom CSS */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+    }
+    .jumbotron {
+      background-color: #007bff;
+      color: #fff;
+      text-align: center;
+      padding: 100px 0;
+    }
+    .disease-section {
+      background-color: #6aee7e;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      margin-bottom: 30px;
+    }
+    button{
+size: 50px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Tomato Leaf Disease Detection</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+         
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="jumbotron">
+    <div class="container">
+      <h1 class="display-4">Welcome to Tomato Leaf Disease Detection</h1>
+      <p class="lead">Learn about common tomato leaf diseases and how to prevent them.</p>
+    </div>
+  </div>
+  <form action="/button" method="post">
+    <div class="d-flex justify-content-center">
+  <button type="submit" class="btn btn-success" value="button">Predict</button>
+</div>
+</form>
+</div>
+
+  <div id="diseases" class="container">
+    <h2 style="text-align: center;">Common Tomato Leaf Diseases</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="disease-section">
+          <h3>Early Blight</h3>
+          <p>Early blight is a fungal disease caused by Alternaria solani. It usually appears as dark, concentric rings with a bull's-eye pattern on lower leaves. Remove affected leaves and use fungicides for control.</p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="disease-section">
+          <h3>Late Blight</h3>
+          <p>Late blight, caused by Phytophthora infestans, manifests as water-soaked lesions that rapidly enlarge, turning dark and spreading to stems and fruits. Control with proper spacing, fungicides, and crop rotation.</p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="disease-section">
+          <h3>Septoria Leaf Spot</h3>
+          <p>Septoria leaf spot, caused by Septoria lycopersici, starts as small, water-soaked spots with dark borders on lower leaves. It spreads rapidly in humid conditions. Remove infected leaves and use fungicides.</p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="disease-section">
+          <h3>Bacterial Spot</h3>
+          <p>Bacterial spot, caused by Xanthomonas campestris pv. vesicatoria, leads to small, water-soaked lesions with yellow halos on leaves, stems, and fruits. Manage through crop rotation and copper-based fungicides.</p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="disease-section">
+          <h3>Tomato Yellow Leaf Curl Virus (TYLCV)</h3>
+          <p>TYLCV is a viral disease transmitted by whiteflies, causing yellowing, curling, and stunted growth of leaves. Control whiteflies with insecticides and plant virus-resistant tomato varieties.</p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="disease-section">
+          <h3>Tomato Mosaic Virus (ToMV)</h3>
+          <p>ToMV causes mottling, yellowing, and distortion of leaves, reducing fruit yield and quality. Control measures include using virus-free seeds, controlling aphids, and avoiding mechanical transmission.</p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="disease-section">
+          <h3>Fusarium Wilt</h3>
+          <p>Fusarium wilt, caused by Fusarium oxysporum f. sp. lycopersici, results in yellowing, wilting, and eventual death of plants. Manage through resistant varieties and soil solarization.</p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="disease-section">
+          <h3>Verticillium Wilt</h3>
+          <p>Verticillium wilt, caused by Verticillium spp., leads to wilting and yellowing of leaves, often starting from the lower part of the plant. Use resistant varieties and avoid planting in infested soil.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

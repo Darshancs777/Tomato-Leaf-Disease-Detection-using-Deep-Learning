@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Custom CSS */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+    }
+    .jumbotron {
+      background-color: #007bff;
+      color: #fff;
+      text-align: center;
+      padding: 100px 0;
+    }
+    .person-card {
+      background-color: #a1a2a4;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      margin-bottom: 30px;
+    }
+    .person-image {
+      max-width: 100%;
+      border-radius: 10%;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">About Us</a>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="jumbotron">
+    <div class="container">
+      <h1 class="display-4">Meet Our Team</h1>
+      <p class="lead">Get to know our guide and students.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <!-- Guide -->
+      <div class="d-block col-md-3" style="margin: auto;"  >
+        <div class="person-card text-center">
+          <img src="{{url_for('static',filename = 'images/Prasad.jpg' )}}" alt="Guide" class="person-image"  >
+          <h3>Mr. Prasad S R</h3>
+          <p>Guide <br> Asst. Professor, CSE <br> SDMIT, Ujire </p>
+     
+        </div>
+      </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      </div><div class="row">
+      <!-- Student 1 -->
+      <div class="col-md-3">
+        <div class="person-card text-center">
+          <img src="{{url_for('static',filename = 'images/adi.png' )}}" alt="Student 1" class="person-image">
+          <h3>Adithya Prasad Kadam</h3>
+          <p>Student <br> SDMIT, Ujire</p>
+        </div>
+      </div>
+      <!-- Student 2 -->
+      <div class="col-md-3">
+        <div class="person-card text-center">
+          <img src="{{url_for('static',filename = 'images/darshan.jpg' )}}" alt="Student 2" class="person-image" style="height: 47%; width: 47%;">
+          <h3>Darshan CS</h3>
+          <p>Student <br> SDMIT, Ujire</p>
+        </div>
+      </div>
+      <!-- Student 3 -->
+      <div class="col-md-3">
+        <div class="person-card text-center">
+          <img src="{{url_for('static',filename = 'images/deepu.png' )}}" alt="Student 3" class="person-image">
+          <h3>G S Deepak Patil</h3>
+          <p>Student <br> SDMIT, Ujire</p>
+        </div>
+      </div>
+      <!-- Student 4 -->
+      <div class="col-md-3">
+        <div class="person-card text-center">
+          <img src="{{url_for('static',filename = 'images/mani.png' )}}" alt="Student 4" class="person-image">
+          <h3>Manikanta S V</h3>
+          <p>Student <br> SDMIT, Ujire</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
