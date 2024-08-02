@@ -10,7 +10,7 @@ Dataset is collected from Kaggle link https://www.kaggle.com/datasets/kaustubhb9
 ![](https://github.com/Darshancs777/Tomato-Leaf-Disease-Detection-using-Deep-Learning/blob/main/screenshots/register%20page.png)
 ## Image Selection of Leaf Page:
 ![](https://github.com/Darshancs777/Tomato-Leaf-Disease-Detection-using-Deep-Learning/blob/main/screenshots/image%20selection%20page.png)
-##Selecting Image of Leaf from Local Device:
+## Selecting Image of Leaf from Local Device:
 ![](https://github.com/Darshancs777/Tomato-Leaf-Disease-Detection-using-Deep-Learning/blob/main/screenshots/choose.png)
 ## Image Leaf Preview:
 ![](https://github.com/Darshancs777/Tomato-Leaf-Disease-Detection-using-Deep-Learning/blob/main/screenshots/image%20preview.png)
