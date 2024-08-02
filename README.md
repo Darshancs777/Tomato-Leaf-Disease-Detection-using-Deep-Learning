@@ -6,3 +6,5 @@ Home Page:
 
 Login Page:
 ![](https://github.com/Darshancs777/Tomato-Leaf-Disease-Detection-using-Deep-Learning/blob/main/screenshots/login%20page.png)
+Register Page:
+![](https://github.com/Darshancs777/Tomato-Leaf-Disease-Detection-using-Deep-Learning/blob/main/screenshots/register%20page.png)
