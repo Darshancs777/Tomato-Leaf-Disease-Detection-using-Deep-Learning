@@ -12,3 +12,5 @@ Image Selection Page:
 ![](https://github.com/Darshancs777/Tomato-Leaf-Disease-Detection-using-Deep-Learning/blob/main/screenshots/image%20selection%20page.png)
 Selecting Image from Local Device:
 ![](https://github.com/Darshancs777/Tomato-Leaf-Disease-Detection-using-Deep-Learning/blob/main/screenshots/choose.png)
+Image Preview:
+![](https://github.com/Darshancs777/Tomato-Leaf-Disease-Detection-using-Deep-Learning/blob/main/screenshots/image%20preview.png)
